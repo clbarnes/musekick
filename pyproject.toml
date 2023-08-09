@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "musekick"
+version = "0.1.0"
+description = ""
+authors = ["Chris Barnes <cbarnes@mrc-lmb.cam.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.24.1"
+parsel = "^1.8.1"
+black = "^23.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+mypy = "^1.4.1"
+ruff = "^0.0.280"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
